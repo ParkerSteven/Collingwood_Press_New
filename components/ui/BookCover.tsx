@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 
 export interface BookCoverProps {
   title?: string;
@@ -13,6 +14,8 @@ export interface BookCoverProps {
   className?: string;
   size?: "sm" | "md" | "lg" | "xl";
   elevation?: boolean;
+  frontSrc?: string;
+  backSrc?: string;
 }
 
 export default function BookCover({
@@ -26,6 +29,8 @@ export default function BookCover({
   className = "",
   size = "md",
   elevation = true,
+  frontSrc,
+  backSrc,
 }: BookCoverProps) {
   // Size dimensions (aspect ratio ~ 1 : 1.5)
   const sizeClasses = {
@@ -46,6 +51,35 @@ export default function BookCover({
       role="img"
       aria-label={`Book cover for "${title}" by ${author}`}
     >
+      {frontSrc ? (
+        <>
+          {backSrc && (
+            <div className="absolute left-0 top-[7%] z-0 h-[86%] w-[62%] overflow-hidden rounded-[3px] shadow-lg transition-transform duration-300 group-hover:-rotate-6 group-hover:-translate-x-2">
+              <Image
+                src={backSrc}
+                alt={`${title} back cover`}
+                fill
+                sizes="176px"
+                className="object-cover"
+                draggable={false}
+              />
+            </div>
+          )}
+          <div className={`absolute z-10 h-full overflow-hidden rounded-[3px] shadow-xl transition-transform duration-300 ${
+            backSrc ? "right-0 top-0 w-[70%]" : "inset-0 w-full"
+          }`}>
+            <Image
+              src={frontSrc}
+              alt={`${title} front cover`}
+              fill
+              sizes="176px"
+              className="object-cover"
+              draggable={false}
+            />
+          </div>
+        </>
+      ) : (
+        <>
       {/* Page edge highlight on the right */}
       {/* <div className="absolute right-0 top-0 bottom-0 w-[4px] bg-gradient-to-r from-transparent via-[#EDE7DC]/30 to-[#FAF6ED]/70 pointer-events-none z-20 rounded-r-[2px]" /> */}
 
@@ -91,6 +125,8 @@ export default function BookCover({
           )}
         </div>
       </div>
+        </>
+      )}
     </div>
   );
 }

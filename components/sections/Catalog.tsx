@@ -5,7 +5,6 @@ import Container from "@/components/ui/Container";
 import SectionHeading from "@/components/ui/SectionHeading";
 import BookCover from "@/components/ui/BookCover";
 import { catalogBooks } from "@/lib/data";
-import { Bookmark, Sparkles, ExternalLink } from "lucide-react";
 
 export default function Catalog() {
   return (

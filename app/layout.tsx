@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
+import StickySocialStrip from "@/components/ui/StickySocialStrip";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -47,7 +48,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={poppins.variable}>
-      <body className="font-sans antialiased text-ink bg-paper selection:bg-gold selection:text-white">{children}</body>
+      <body className="font-sans antialiased text-ink bg-paper selection:bg-gold selection:text-white">
+        <StickySocialStrip />
+        {children}
+        </body>
     </html>
   );
 }

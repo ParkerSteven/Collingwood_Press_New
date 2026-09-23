@@ -4,8 +4,82 @@ import { useRef, useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import Container from "@/components/ui/Container";
 import BookCover from "@/components/ui/BookCover";
-import { relatedBooks } from "@/lib/data";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+
+
+const booksData = [
+  // NEW 3
+  {
+    id: 1,
+    title: "GODFIDENCE",
+    author: "By Veronica Graham R.N., BSN",
+    genre: "Literary Fiction",
+    blurb:
+      "This is the powerful, transparent story of Veronica Graham — the girl doctors said wouldn’t live past the age of 12. Through trauma, abuse, rejection, and unimaginable odds, she didn’t just survive — she soared. A soul-stirring journey of faith, resilience, and divine empowerment, this book is your spiritual roadmap mapped with tears, sealed with truth, and ignited by hope.",
+    frontSrc: "/assets/images/bookmockups/B1F.jpg",
+    backSrc: "/assets/images/bookmockups/B1B.jpg",
+    coverColor: "#E8E2D7",
+  },
+
+  {
+    id: 6,
+    title: "Fate of the Silver Wolf",
+    author: "By Sonya E. Maestler",
+    genre: "Children's / Picture Book",
+    blurb:
+      "Fate of the Silver Wolf follows seventeen-year-old Aylin, an outsider in a strict werewolf pack where tradition rules and bloodlines matter. Torn between love, secrets of her origin, and a terrifying darkness, Aylin must discover the truth about her bloodline and a power that could reshape the fate of the pack. Perfect for fans of paranormal romance, shifter fantasy, and coming-of-age supernatural adventures.",
+    frontSrc: "/assets/images/bookmockups/B2F.jpg",
+    backSrc: "/assets/images/bookmockups/B2B.jpg",
+    coverColor: "#F3E9D8",
+  },
+  {
+    id: 4,
+    title: "The Liberation of Sue Moody",
+    author: "By Gail Gelburd",
+    genre: "Historical Fiction",
+    blurb:
+      "The story of journalist Sue Moody is one about survival of war, bombings, starvation, Nazi Germany, abandonment, and of simply trying to be a woman with a career in the early twentieth century. Inspired by thousands of letters, journals, and manuscripts found in an abandoned house, Gelburd has created a compelling first-person narrative of resilience and courage across continents and decades.",
+    frontSrc: "/assets/images/bookmockups/B3F.jpg",
+    backSrc: "/assets/images/bookmockups/B3B.jpg",
+    coverColor: "#DDE6F3",
+  },
+  {
+    id: 5,
+    title: "Drag Racing",
+    author: "By Mark L. Brothers",
+    genre: "Speculative Fiction",
+    blurb:
+      "From South Florida’s rebellious 1950s streets to the thundering drag strips of Kentucky, David Heath’s life has been one wild, high-octane ride. A fearless racer, paratrooper, and self-taught mechanic who later became a neurosurgeon, his story is a powerful blend of adrenaline, resilience, and redemption. Strap in for a ride that’s as thrilling as it is inspiring.",
+    frontSrc: "/assets/images/bookmockups/B4F.jpg",
+    backSrc: "/assets/images/bookmockups/B4B.jpg",
+    coverColor: "#E7D9E9",
+  },
+
+  // Existing
+  {
+    id: 2,
+    title: "Shattered",
+    author: "by Emily Henry",
+    genre: "Sci-fi / Dystopian",
+    blurb:
+      "Shattered is a dystopian story set 100 years in the future where the revolution of technology led to the collapse of the Earth, forcing people to rely on technology to sustain themselves. In this society, two men band together to save the life of an innocent child through unconventional means — seeking to give this child a new heart.",
+    frontSrc: "/assets/images/bookmockups/B5F.jpg",
+    backSrc: "/assets/images/bookmockups/B5B.jpg",
+    coverColor: "#F6D7DA",
+  },
+  {
+    id: 3,
+    title: "Serious Roommate Problems",
+    author: "By Paul Arala",
+    genre: "Romance",
+    blurb:
+      "When Pete’s wife Holly walks out on their marriage, he packs his bags and takes the first bus to Brooklyn, New York. What follows is a wild tale of dangerous roommates, unexpected love, and ridiculous adventures. This is the final novel in the two-part Roommate Problems series, following Pete and Holly’s journey from New York to Portland, Oregon.",
+    frontSrc: "/assets/images/bookmockups/B6F.jpg",
+    backSrc: "/assets/images/bookmockups/B6B.jpg",
+    coverColor: "#D7E7F6",
+  },
+];
+
 
 export default function RelatedCarousel() {
   const scrollerRef = useRef<HTMLDivElement>(null);
@@ -22,7 +96,7 @@ export default function RelatedCarousel() {
     // Calculate approximate active card index
     const cardWidth = 210; // width + gap
     const idx = Math.round(scrollLeft / cardWidth);
-    setActiveIndex(Math.min(Math.max(0, idx), relatedBooks.length - 1));
+    setActiveIndex(Math.min(Math.max(0, idx), booksData.length - 1));
   };
 
   useEffect(() => {
@@ -105,7 +179,7 @@ export default function RelatedCarousel() {
             ref={scrollerRef}
             className="flex items-start gap-6 sm:gap-7 overflow-x-auto snap-x snap-mandatory scroll-smooth py-6 px-4 sm:px-12 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
           >
-            {relatedBooks.map((book, i) => (
+            {booksData.map((book, i) => (
               <motion.div
                 key={book.title}
                 initial={{ opacity: 0, y: 16 }}
@@ -122,9 +196,8 @@ export default function RelatedCarousel() {
                       title={book.title}
                       author={book.author}
                       genre={book.genre}
-                      bg={book.bg}
-                      accent={book.accent}
-                      artTheme={book.artTheme}
+                      bg={book.coverColor}
+                      frontSrc={book.frontSrc}
                       elevation={true}
                     />
                   </div>
@@ -148,7 +221,7 @@ export default function RelatedCarousel() {
 
           {/* Carousel Pagination Dots */}
           <div className="flex items-center justify-center gap-2 mt-4">
-            {relatedBooks.map((book, i) => (
+            {booksData.map((book, i) => (
               <button
                 key={`dot-${book.title}`}
                 onClick={() => scrollToIndex(i)}
