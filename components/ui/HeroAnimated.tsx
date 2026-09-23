@@ -3,7 +3,6 @@
 import { motion } from "framer-motion";
 import Button from "@/components/ui/Button";
 import Eyebrow from "@/components/ui/Eyebrow";
-import BookCover from "@/components/ui/BookCover";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -123,61 +122,14 @@ export default function HeroAnimated() {
                 transition={{ duration: 0.85, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
                 className="relative mx-auto w-full max-w-[460px] h-[450px] sm:h-[500px] flex items-center justify-center"
             >
-                <div className="absolute inset-x-8 top-12 bottom-12 rounded-full bg-paper-warm blur-3xl opacity-80 pointer-events-none" />
-
-                {/* Back Left Book */}
-                <motion.div
-                    animate={{ y: [0, -8, 0], rotate: [-8, -9, -8] }}
-                    transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
-                    className="absolute left-[4%] top-[14%] w-[52%] z-10"
-                >
-                    <BookCover
-                        title="Halfway to Kestrel Bay"
-                        subtitle="A Pacific Northwest Mystery"
-                        author="Grace Tanaka-Reyes"
-                        genre="Literary Mystery"
-                        bg="#1E332A"
-                        accent="#E3C28D"
-                        artTheme="foliage"
-                        elevation={true}
-                    />
-                </motion.div>
-
-                {/* Back Right Book */}
-                <motion.div
-                    animate={{ y: [0, 8, 0], rotate: [10, 9, 10] }}
-                    transition={{ duration: 7, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-                    className="absolute right-[4%] top-[22%] w-[48%] z-20"
-                >
-                    <BookCover
-                        title="Signal Loss"
-                        subtitle="Deep Space Chronicles"
-                        author="Warren Pruitt"
-                        genre="Speculative Fiction"
-                        bg="#341E2F"
-                        accent="#F0B67F"
-                        artTheme="astronomy"
-                        elevation={true}
-                    />
-                </motion.div>
-
-                {/* Center Book */}
-                <motion.div
-                    animate={{ y: [0, -6, 0], rotate: [1, 0, 1] }}
-                    transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
-                    className="relative w-[60%] z-30 drop-shadow-2xl"
-                >
-                    <BookCover
-                        title="The Quiet Harbor"
-                        subtitle="A Novel of the Maine Coastline"
-                        author="Denise Alvarado"
-                        genre="Historical Fiction"
-                        bg="#23323B"
-                        accent="#E8C98B"
-                        artTheme="coast"
-                        elevation={true}
-                    />
-                </motion.div>
+                <Image
+                    src="/assets/images/3DBooks New.png"
+                    alt="A stack of published books"
+                    fill
+                    sizes="(max-width: 640px) 90vw, 460px"
+                    className="scale-[1.2] object-contain sm:scale-[1.3]"
+                    priority
+                />
             </motion.div>
         </>
     );
