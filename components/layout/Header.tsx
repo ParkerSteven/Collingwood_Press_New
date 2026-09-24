@@ -32,7 +32,7 @@ export default function Header() {
         <Link href="/" className="group flex items-center gap-3">
           <Image
             src="/Collingwood-Logo.png"
-            alt="Collingwood Press"
+            alt="The Collingwood Press"
             width={240}
             height={50}
             priority

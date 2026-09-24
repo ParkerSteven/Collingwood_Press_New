@@ -1,4 +1,4 @@
-# Collingwood Press — Homepage Revamp
+# The Collingwood Press — Homepage Revamp
 
 A production-ready Next.js (App Router) homepage for thecollingwoodpress.com, built from the
 Website Revamp Design Direction Brief. Light, editorial, premium — navy and warm brick-red on a

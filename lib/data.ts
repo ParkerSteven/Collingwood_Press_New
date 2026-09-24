@@ -352,14 +352,14 @@ export const marketingServices = [
 
 export const faqs = [
   {
-    question: "How does Collingwood Press differ from a self-publishing vanity mill or self-serve platform?",
+    question: "How does The Collingwood Press differ from a self-publishing vanity mill or self-serve platform?",
     answer:
-      "Unlike automated self-publishing mills that charge exorbitant fees for automated PDF exports, Collingwood Press operates with the ethos of a traditional literary house. Every author is assigned a dedicated senior trade editor who reads the manuscript line-by-line, discusses structural revisions directly by phone, and coordinates bespoke interior typesetting, custom cover art, and global distribution.",
+      "Unlike automated self-publishing mills that charge exorbitant fees for automated PDF exports, The Collingwood Press operates with the ethos of a traditional literary house. Every author is assigned a dedicated senior trade editor who reads the manuscript line-by-line, discusses structural revisions directly by phone, and coordinates bespoke interior typesetting, custom cover art, and global distribution.",
   },
   {
     question: "Who retains the copyright and royalties to my book?",
     answer:
-      "You retain 100% of your copyright, creative ownership, and publishing rights at all times. Collingwood Press does not claim rights to your intellectual property or take permanent cuts of your author royalties. Our role is that of a trusted publishing partner and production house.",
+      "You retain 100% of your copyright, creative ownership, and publishing rights at all times. The Collingwood Press does not claim rights to your intellectual property or take permanent cuts of your author royalties. Our role is that of a trusted publishing partner and production house.",
   },
   {
     question: "What is included in the complimentary manuscript review?",
@@ -387,7 +387,7 @@ export const faqs = [
       "Many of our authors begin with an unpolished first draft. Our editorial team offers developmental editing and structural story coaching to help shape your raw manuscript into a compelling, market-ready literary work before typesetting begins.",
   },
   {
-    question: "What goes into custom book cover design at Collingwood Press?",
+    question: "What goes into custom book cover design at The Collingwood Press?",
     answer:
       "We treat book jackets as pieces of visual literature. Our design team analyzes your genre's market conventions, creates custom typographic lockups and hand-crafted artwork, and applies sophisticated tactile finishes such as foil stamping, spot gloss, and soft-touch matte lamination.",
   },

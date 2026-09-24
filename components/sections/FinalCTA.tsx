@@ -86,8 +86,8 @@ export default function FinalCTA() {
                 <span>info@thecollingwoodpress.com</span>
               </a>
 
-              <div className="flex items-center gap-3.5 text-ink-soft">
-                <span className="flex h-9 w-9 items-center justify-center rounded-xs bg-paper-card border border-line text-ink-muted">
+              <div className="flex items-center gap-3.5 text-ink-soft hover:text-[#9E7C35] group">
+                <span className="flex h-9 w-9 items-center justify-center rounded-xs bg-paper-card border border-line text-[#C5A059] group-hover:border-[#C5A059] cursor-pointer">
                   <MapPin size={15} />
                 </span>
                 <span>Ontario, California, United States</span>

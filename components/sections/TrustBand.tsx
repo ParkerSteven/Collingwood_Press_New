@@ -29,7 +29,7 @@ export default function TrustBand() {
                   <Feather size={16} strokeWidth={1.75} />
                 </span>
                 <span className="font-sans text-[0.74rem] uppercase tracking-[0.16em] font-semibold text-[#C5A059]">
-                  The Collingwood Press Publishing Manifesto
+                  The The Collingwood Press Publishing Manifesto
                 </span>
               </div>
 
@@ -47,7 +47,7 @@ export default function TrustBand() {
               </p>
 
               <p className="text-[1.02rem] leading-relaxed text-slate-300 font-sans">
-                Collingwood Press was founded on a contrary principle: that every manuscript
+                The Collingwood Press was founded on a contrary principle: that every manuscript
                 deserves a seasoned, human trade editor who reads every paragraph, an interior
                 typographer who balances every gutter margin in InDesign, and an honest partnership
                 guided by telephone conversations rather than automated tickets.
@@ -91,7 +91,7 @@ export default function TrustBand() {
                 The Author First Guarantee
               </span>
               <p className="font-sans text-xs text-slate-400 leading-relaxed mt-2 max-w-xs">
-                Every title published under the Collingwood Press imprint adheres to strict trade
+                Every title published under the The Collingwood Press imprint adheres to strict trade
                 standards verified by the Independent Book Publishers Association.
               </p>
               <div className="w-12 h-px bg-white/10 my-5" />

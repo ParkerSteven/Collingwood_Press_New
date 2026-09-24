@@ -49,7 +49,7 @@ export default function HeroAnimated() {
                     className="mt-6 text-[1rem] sm:text-[1rem] leading-relaxed text-ink-soft font-sans font-normal"
                 >
                     Bringing a manuscript into the world shouldn&rsquo;t feel like a gamble with automated
-                    mills or aloof gatekeepers. At Collingwood Press, seasoned trade editors, master
+                    mills or aloof gatekeepers. At The Collingwood Press, seasoned trade editors, master
                     typographers, and dedicated book publicists champion your work from first proof to
                     international bookstore distribution.
                 </motion.p>
@@ -89,7 +89,7 @@ export default function HeroAnimated() {
                         >
                             <Image
                                 src="/ibpa-proud-member png.png"
-                                alt="Collingwood Press IBPA Member"
+                                alt="The Collingwood Press IBPA Member"
                                 width={120}
                                 height={50}
                                 className="block h-auto object-contain"
@@ -106,7 +106,7 @@ export default function HeroAnimated() {
                             >
                                 <img
                                     src="https://seal-austin.bbb.org/seals/blue-seal-293-61-bbb-1000231047.png"
-                                    alt="Collingwood Press BBB Business Review"
+                                    alt="The Collingwood Press BBB Business Review"
                                     className="block h-auto max-h-12 w-auto object-contain"
                                 />
                             </Link>

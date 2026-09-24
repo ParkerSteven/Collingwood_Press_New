@@ -19,7 +19,7 @@ export default function ProjectManagers() {
               <span className="italic text-[#9E7C35]">who shepherd your work</span>
             </>
           }
-          description="At Collingwood Press, you are never passed off to customer support tickets or junior offshore contractors. These are the seasoned publishing professionals who read your drafts and answer your calls."
+          description="At The Collingwood Press, you are never passed off to customer support tickets or junior offshore contractors. These are the seasoned publishing professionals who read your drafts and answer your calls."
         />
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 sm:gap-8">

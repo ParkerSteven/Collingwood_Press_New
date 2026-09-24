@@ -151,7 +151,7 @@ export default function MarketingPage() {
                 International Book Fair Representation
               </h2>
               <p className="mt-3 text-sm sm:text-base text-slate-300 leading-relaxed">
-                Collingwood Press represents author titles at the world&rsquo;s most prestigious trade exhibitions, presenting physical display copies to international publishers, film scouts, and rights buyers.
+                The Collingwood Press represents author titles at the world&rsquo;s most prestigious trade exhibitions, presenting physical display copies to international publishers, film scouts, and rights buyers.
               </p>
             </div>
 

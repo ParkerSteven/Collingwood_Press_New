@@ -16,7 +16,7 @@ export default function PrivacyChoicesPage() {
             Your Privacy Choices
           </h1>
           <p className="mt-2 text-xs text-ink-muted">
-            Collingwood Press &bull; Subsidiary of Hambone Publishers LLC
+            The Collingwood Press &bull; Subsidiary of Hambone Publishers LLC
           </p>
 
           <div className="mt-8 flex flex-col gap-6 text-sm text-ink-soft leading-relaxed font-sans">
@@ -29,7 +29,7 @@ export default function PrivacyChoicesPage() {
                 Do Not Sell or Share My Information
               </h3>
               <p className="text-xs text-ink-muted">
-                Collingwood Press does not sell personal author information or creative manuscripts to third parties or advertising data brokers.
+                The Collingwood Press does not sell personal author information or creative manuscripts to third parties or advertising data brokers.
               </p>
               <div className="mt-2">
                 <span className="inline-flex items-center gap-2 px-3 py-1.5 rounded-xs bg-[#C5A059] text-black font-semibold text-xs">

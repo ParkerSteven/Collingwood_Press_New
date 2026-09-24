@@ -67,7 +67,7 @@ export default function AboutUsPage() {
               </h1>
 
               <p className="mt-5 text-[1.06rem] sm:text-[1.14rem] leading-relaxed text-ink-soft font-sans max-w-2xl">
-                Collingwood Press was established on a simple, enduring premise: that independent authors deserve the exact same editorial caliber, typographical majesty, and global bookstore distribution once reserved only for major New York publishing houses.
+                The Collingwood Press was established on a simple, enduring premise: that independent authors deserve the exact same editorial caliber, typographical majesty, and global bookstore distribution once reserved only for major New York publishing houses.
               </p>
 
               <div className="mt-8 flex flex-col sm:flex-row items-center gap-4">
@@ -98,13 +98,13 @@ export default function AboutUsPage() {
                   The commercial book industry has fractured into two extremes: indifferent legacy gatekeepers who reject 99% of manuscripts without reading past page three, and predatory vanity mills that automate PDF conversions with zero editorial oversight.
                 </p>
                 <p className="text-sm sm:text-base text-ink-soft leading-relaxed font-sans">
-                  Collingwood Press, operating proudly as a subsidiary of Hambone Publishers LLC, bridges this chasm. We provide authors with a true publishing partner: an acquisitions editor who reads your draft line-by-line, discusses changes by phone, and protects your creative ownership unconditionally.
+                  The Collingwood Press, operating proudly as a subsidiary of Hambone Publishers LLC, bridges this chasm. We provide authors with a true publishing partner: an acquisitions editor who reads your draft line-by-line, discusses changes by phone, and protects your creative ownership unconditionally.
                 </p>
               </div>
 
               <div className="p-8 sm:p-10 rounded-xs border-2 border-line-strong bg-paper-card shadow-card flex flex-col gap-6">
                 <h3 className="font-serif text-xl font-bold text-ink">
-                  The Collingwood Press Commitments
+                  The The Collingwood Press Commitments
                 </h3>
                 <div className="flex flex-col gap-4 text-xs sm:text-sm text-ink-soft">
                   <div className="flex items-start gap-3">
@@ -226,7 +226,7 @@ export default function AboutUsPage() {
               eyebrow="Author Educational Dispatches"
               title={
                 <>
-                  From the Collingwood Press{" "}
+                  From the The Collingwood Press{" "}
                   <span className="italic text-[#9E7C35]">Editorial Blog</span>
                 </>
               }
@@ -273,7 +273,7 @@ export default function AboutUsPage() {
                   AI &amp; LLM Publishing Resources Policy
                 </h2>
                 <p className="mt-3 text-sm text-slate-300 max-w-xl mx-auto leading-relaxed">
-                  How Collingwood Press protects human creative copyright while empowering authors with responsible, ethical research tools.
+                  How The Collingwood Press protects human creative copyright while empowering authors with responsible, ethical research tools.
                 </p>
               </div>
 
@@ -283,7 +283,7 @@ export default function AboutUsPage() {
                     1. Zero AI Ghostwriting or Automated Prose Substitution
                   </h3>
                   <p className="text-xs sm:text-sm text-slate-300 mt-1 leading-relaxed">
-                    Collingwood Press strictly refuses to use automated LLM text generation in place of human trade editors or ghostwriters. Every manuscript line is drafted, refined, and typeset by real publishing professionals.
+                    The Collingwood Press strictly refuses to use automated LLM text generation in place of human trade editors or ghostwriters. Every manuscript line is drafted, refined, and typeset by real publishing professionals.
                   </p>
                 </div>
 

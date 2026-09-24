@@ -13,11 +13,11 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.thecollingwoodpress.com"),
   title: {
-    default: "Collingwood Press | Full-Service Book Publishing for Authors",
-    template: "%s | Collingwood Press",
+    default: "The Collingwood Press | Full-Service Book Publishing for Authors",
+    template: "%s | The Collingwood Press",
   },
   description:
-    "Collingwood Press takes first-draft manuscripts to shelf-ready books. Editing, formatting, cover design, and marketing, guided by a real project manager from day one.",
+    "The Collingwood Press takes first-draft manuscripts to shelf-ready books. Editing, formatting, cover design, and marketing, guided by a real project manager from day one.",
   keywords: [
     "book publishing company",
     "self publishing services",
@@ -26,16 +26,16 @@ export const metadata: Metadata = {
     "author marketing services",
   ],
   openGraph: {
-    title: "Collingwood Press | Full-Service Book Publishing for Authors",
+    title: "The Collingwood Press | Full-Service Book Publishing for Authors",
     description:
       "From first draft to shelf-ready. Editing, design, and marketing for authors who want their book published with care.",
     url: "https://www.thecollingwoodpress.com",
-    siteName: "Collingwood Press",
+    siteName: "The Collingwood Press",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Collingwood Press | Full-Service Book Publishing for Authors",
+    title: "The Collingwood Press | Full-Service Book Publishing for Authors",
     description:
       "From first draft to shelf-ready. Editing, design, and marketing for authors who want their book published with care.",
   },

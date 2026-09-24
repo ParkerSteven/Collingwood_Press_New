@@ -69,14 +69,14 @@ export default function Footer() {
               </span>
               <div className="flex flex-col">
                 <span className="font-serif text-[1.3rem] font-bold text-white leading-tight tracking-tight group-hover:text-[#E8C98B] transition-colors">
-                  Collingwood Press
+                  The Collingwood Press
                 </span>
                 <span className="font-sans text-[8.5px] uppercase tracking-[0.18em] text-[#C5A059]/80 font-medium">
                   Independent Publishing House &bull; Est. 2009
                 </span>
               </div> */}
               <Image src={'/footerLogo.png'}
-                alt="Collingwood Press"
+                alt="The Collingwood Press"
                 width={260}
                 height={50}
                 priority
@@ -100,7 +100,7 @@ export default function Footer() {
                 >
                   <Image
                     src="/ibpa-proud-memberFooter.png"
-                    alt="Collingwood Press IBPA Member"
+                    alt="The Collingwood Press IBPA Member"
                     width={140}
                     height={48}
                     className="h-10 sm:h-11 w-auto object-contain"
@@ -119,7 +119,7 @@ export default function Footer() {
                 >
                   <Image
                     src="/blue-seal.png"
-                    alt="Collingwood Press IBPA Member"
+                    alt="The Collingwood Press IBPA Member"
                     width={140}
                     height={48}
                     className="h-10 sm:h-11 w-auto object-contain"
@@ -278,14 +278,14 @@ export default function Footer() {
         {/* Disclaimer Text */}
         <div className="mt-12 pt-6 border-t border-white/10 text-center">
           <p className="text-[0.76rem] text-slate-400 italic">
-            Collingwood Press is not affiliated with any other publisher operating under a similar name.
+            The Collingwood Press is not affiliated with any other publisher operating under a similar name.
           </p>
         </div>
 
         {/* Bottom Bar: Copyright & Policies */}
         <div className="mt-4 pt-4 border-t border-white/5 flex flex-col items-center justify-between gap-3 sm:flex-row text-xs text-slate-400">
           <p className="text-[0.78rem] text-slate-400 text-center sm:text-left">
-            &copy; 2026 | Collingwood Press (Subsidiary of Hambone Publishers LLC) | All rights reserved
+            &copy; 2026 | The Collingwood Press (Subsidiary of Hambone Publishers LLC) | All rights reserved
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4 text-[0.78rem]">
             <Link href="/privacy-policy" className="hover:text-[#E8C98B] transition-colors">

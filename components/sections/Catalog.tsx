@@ -11,7 +11,7 @@ export default function Catalog() {
     <section id="catalog" className="bg-paper-warm py-20 lg:py-28 border-b border-line">
       <Container className="flex flex-col gap-14 sm:gap-16">
         <SectionHeading
-          eyebrow="Collingwood Press Presents"
+          eyebrow="The Collingwood Press Presents"
           title={
             <>
               Recent acquisitions &amp;{" "}

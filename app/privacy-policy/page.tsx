@@ -16,19 +16,19 @@ export default function PrivacyPolicyPage() {
             Privacy Policy
           </h1>
           <p className="mt-2 text-xs text-ink-muted">
-            Last Updated: January 2026 &bull; Collingwood Press (Subsidiary of Hambone Publishers LLC)
+            Last Updated: January 2026 &bull; The Collingwood Press (Subsidiary of Hambone Publishers LLC)
           </p>
 
           <div className="mt-8 flex flex-col gap-6 text-sm text-ink-soft leading-relaxed font-sans">
             <p>
-              At Collingwood Press, we hold author confidentiality and data protection in the highest regard. This Privacy Policy outlines how your personal information, submitted manuscripts, and creative intellectual property are gathered, utilized, and guarded.
+              At The Collingwood Press, we hold author confidentiality and data protection in the highest regard. This Privacy Policy outlines how your personal information, submitted manuscripts, and creative intellectual property are gathered, utilized, and guarded.
             </p>
 
             <h2 className="font-serif text-xl font-bold text-ink mt-2">
               1. Manuscript Confidentiality &amp; Non-Disclosure
             </h2>
             <p>
-              All synopsis submissions, raw manuscript drafts, sample chapters, and correspondence delivered to Collingwood Press are treated as strictly confidential trade materials. We do not sell, rent, license, or share your proprietary writing with any third-party marketing entities or artificial intelligence model training datasets.
+              All synopsis submissions, raw manuscript drafts, sample chapters, and correspondence delivered to The Collingwood Press are treated as strictly confidential trade materials. We do not sell, rent, license, or share your proprietary writing with any third-party marketing entities or artificial intelligence model training datasets.
             </p>
 
             <h2 className="font-serif text-xl font-bold text-ink mt-2">
@@ -42,7 +42,7 @@ export default function PrivacyPolicyPage() {
               3. Author Rights Retention
             </h2>
             <p>
-              Submitting creative works for evaluation does not transfer any portion of your copyright, trademarks, or publication rights to Collingwood Press or Hambone Publishers LLC. All ownership remains exclusively yours.
+              Submitting creative works for evaluation does not transfer any portion of your copyright, trademarks, or publication rights to The Collingwood Press or Hambone Publishers LLC. All ownership remains exclusively yours.
             </p>
 
             <h2 className="font-serif text-xl font-bold text-ink mt-2">
